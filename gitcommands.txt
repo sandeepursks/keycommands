@@ -1,0 +1,8 @@
+Install git for windows 
+on any folder "git init"
+git status
+git add <<filename>>
+git commit -m "added my first test file"
+git config --global --list
+git config --global user.name "sandeepursks"
+git config --global user.email "sandeepursks@gmail.com"
