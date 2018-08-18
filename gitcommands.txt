@@ -22,5 +22,6 @@ git push -u origin branch1      // push data from local pc to remote gitpub on b
 
 
 merge new branch1 to master
-git merge master
+git checkout master  // swithc to master
+git merge branch1    // merge changes from branch1 to master
 
