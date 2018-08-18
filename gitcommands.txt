@@ -12,3 +12,11 @@ git add <<filename or >> git add *.*
 
 git remote add origin https://github.com/sandeepursks/keycommands.git
 git push -u origin master  //master is branch name default
+
+git branch <<branch1>>   // to create new branch
+git checkout branch1    // to switch branche
+dir >test2.txt       // creaste new fiewl
+git add test2.txt   // add new file to git  
+git commit -m "added sample test2 file"    // commit new file to git
+git push -u origin branch1      // push data from local pc to remote gitpub on branch called 'branch1'
+
