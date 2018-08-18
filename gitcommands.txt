@@ -20,3 +20,7 @@ git add test2.txt   // add new file to git
 git commit -m "added sample test2 file"    // commit new file to git
 git push -u origin branch1      // push data from local pc to remote gitpub on branch called 'branch1'
 
+
+merge new branch1 to master
+git merge master
+
