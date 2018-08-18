@@ -1,8 +1,14 @@
-Install git for windows 
-on any folder "git init"
-git status
-git add <<filename>>
-git commit -m "added my first test file"
-git config --global --list
-git config --global user.name "sandeepursks"
-git config --global user.email "sandeepursks@gmail.com"
+1.Install git for windows 
+2.on any folder "git init"
+3.git status
+4. git add <<filename>>
+5. git commit -m "added my first test file"
+6. git config --global --list
+7. git config --global user.name "sandeepursks"
+8.git config --global user.email "sandeepursks@gmail.com"
+
+git add <<filename or >> git add *.*
+
+
+git remote add origin https://github.com/sandeepursks/keycommands.git
+git push -u origin master  //master is branch name default
