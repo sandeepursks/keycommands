@@ -26,3 +26,5 @@ git checkout master  // swithc to master
 git merge branch1    // merge changes from branch1 to master
 git push -u origin branch1  // reflect changes on branch1 from master branch
 
+on master
+
