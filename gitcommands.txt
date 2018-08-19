@@ -8,7 +8,7 @@
 8.git config --global user.email "sandeepursks@gmail.com"
 
 git add <<filename or >> git add *.*
-
+git add --all // to add all files and folders
 
 git remote add origin https://github.com/sandeepursks/keycommands.git
 git push -u origin master  //master is branch name default
