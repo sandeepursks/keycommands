@@ -10,7 +10,9 @@
 git add <<filename or >> git add *.*
 git add --all // to add all files and folders
 
-git remote add origin https://github.com/sandeepursks/keycommands.git
+
+git pull --rebase  // to rebase to commit to other repo
+git remote add origin https://github.com/sandeepursks/keycommands.git  // to rebase to commit to other repo
 git push -u origin master  //master is branch name default
 
 git branch <<branch1>>   // to create new branch
