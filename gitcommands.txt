@@ -32,3 +32,14 @@ git push -u origin branch1  // reflect changes on branch1 from master branch
 git branch -d <<branchname>>>    // this will delete from local
 git push origin -delete <<branchname>> /// this will del from remote
 
+
+
+
+// http://www.yolinux.com/TUTORIALS/Git-commands.html
+// to clone data from remote to local
+git init  // on any local folder  
+git clone https://github.com/sandeepursks/keycommands
+
+
+// to list files on remote git repo [list of branches ]
+git ls-remote -h https://github.com/sandeepursks/keycommands
