@@ -40,6 +40,18 @@ git push origin -delete <<branchname>> /// this will del from remote
 git init  // on any local folder  
 git clone https://github.com/sandeepursks/keycommands
 
+get status  // will show you whethern local & remote are same or not 
+
+//to either add or modify exising files  use below 
+git add gitcommands.txt
+
+
+// to commit modified files to remote 
+git commit -m "command txt modified"
+// to push files from local to remote 
+git push -u origin master
+
+
 
 // to list files on remote git repo [list of branches ]
 git ls-remote -h https://github.com/sandeepursks/keycommands
