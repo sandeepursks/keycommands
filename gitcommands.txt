@@ -8,9 +8,11 @@
 8.git config --global user.email "sandeepursks@gmail.com"
 
 git add <<filename or >> git add *.*
+git add --all // to add all files and folders
 
 
-git remote add origin https://github.com/sandeepursks/keycommands.git
+git pull --rebase  // to rebase to commit to other repo
+git remote add origin https://github.com/sandeepursks/keycommands.git  // to rebase to commit to other repo
 git push -u origin master  //master is branch name default
 
 git branch <<branch1>>   // to create new branch
@@ -30,3 +32,26 @@ git push -u origin branch1  // reflect changes on branch1 from master branch
 git branch -d <<branchname>>>    // this will delete from local
 git push origin -delete <<branchname>> /// this will del from remote
 
+
+
+
+// http://www.yolinux.com/TUTORIALS/Git-commands.html
+// to clone data from remote to local
+git init  // on any local folder  
+git clone https://github.com/sandeepursks/keycommands
+
+get status  // will show you whethern local & remote are same or not 
+
+//to either add or modify exising files  use below 
+git add gitcommands.txt
+
+
+// to commit modified files to remote 
+git commit -m "command txt modified"
+// to push files from local to remote 
+git push -u origin master
+
+
+
+// to list files on remote git repo [list of branches ]
+git ls-remote -h https://github.com/sandeepursks/keycommands
